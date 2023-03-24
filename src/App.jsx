@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Projekt VITE
+        Projekt VITE on Github
       </p>
     </div>
   )
