@@ -34,7 +34,9 @@
 }
 
 .card {
+  display: grid;
   padding: 2em;
+  justify-content: space-between;
 }
 
 .read-the-docs {
