@@ -2,38 +2,57 @@ const people = [
     {
       id: 1,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
+        '../Images/Kubek-kwiaty.png',
       name: 'Kubek',
       title: 'naduk kolorowy',
-      quote:
+      description:
         'Kubek z nadrukiem full kolor.',
     },
     {
       id: 2,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+      '../Images/Kubek-kwiaty.png',
       name: 'Kufel szklany',
+     
       title: 'nadruk czarny',
-      quote:
+      description:
         'Kufel szklany z nadrukiem czarnym.',
     },
     {
       id: 3,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg',
+      '../Images/Kubek-magiczny.png' ,
       name: 'Wizytówka metalowa',
       title: 'nadruk klorowy',
-      quote:
+      description:
        ' Wizytówka metalowa z nadrukiem full kolor z obu stron .',
     },
     {
       id: 4,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+      '../Images/Kubek-magiczny.png',
       name: 'krysztal',
       title: 'nadruk kolorowy',
-      quote:
+      description:
         'Kryształ z nadrukiem full kolor. ',
+    },
+    {
+      id: 5,
+      image:
+        '../Images/Kubek-magiczny.png',
+      name: 'Kubek',
+      title: 'naduk kolorowy',
+      description:
+        'Kubek zmieniający kolor pod wpływem ciepła z nadrukiem full kolor.',
+    },
+    {
+      id: 6,
+      image:
+        '../Images/latte.png',
+      name: 'Kubek latte',
+      title: 'naduk kolorowy',
+      description:
+        'Kubek z nadrukiem full kolor.',
     },
   ];
   
