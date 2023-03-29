@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
-// import { FadescriptionRight } from 'react-icons/fa';
 import data from './data';
 function Carousel() {
   const [people, setPeople] = useState(data);
@@ -19,7 +18,7 @@ function Carousel() {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 5000);
+    }, 8000);
     return () => {
       clearInterval(slider);
     };
