@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
-import { FaQuoteRight } from 'react-icons/fa';
+// import { FadescriptionRight } from 'react-icons/fa';
 import data from './data';
 function Carousel() {
   const [people, setPeople] = useState(data);
@@ -34,7 +34,7 @@ function Carousel() {
       </div>
       <div className="section-center">
         {people.map((person, personIndex) => {
-          const { id, image, name, title, quote } = person;
+          const { id, image, name, title, description } = person;
 
           let position = 'nextSlide';
           if (personIndex === index) {
@@ -52,8 +52,8 @@ function Carousel() {
               <img src={image} alt={name} className="person-img" />
               <h4>{name}</h4>
               <p className="title">{title}</p>
-              <p className="text">{quote}</p>
-              {/* <FaQuoteRight className="icon" /> */}
+              <p className="text">{description}</p>
+              {/* <FadescriptionRight className="icon" /> */}
               <p>{id}</p>
             </article>
           );
