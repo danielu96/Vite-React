@@ -59,7 +59,7 @@ function Carousel() {
           );
         })}
         <button className="prev" onClick={() => setIndex(index - 1)}>
-          {/* <FiChevronLeft /> */}-
+          <FiChevronLeft />
         </button>
         <button className="next" onClick={() => setIndex(index + 1)}>
           <FiChevronRight />
