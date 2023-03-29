@@ -53,7 +53,8 @@ function Carousel() {
               <p className="title">{title}</p>
               <p className="text">{description}</p>
               {/* <FadescriptionRight className="icon" /> */}
-              <p>{id}</p>
+              <p>{id} z {people.length}</p>
+             
             </article>
           );
         })}
