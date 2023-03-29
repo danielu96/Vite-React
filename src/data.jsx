@@ -6,16 +6,16 @@ const people = [
       name: 'Kubek',
       title: 'naduk kolorowy',
       quote:
-        'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+        'Kubek z nadrukiem full kolor.',
     },
     {
       id: 2,
       image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
-      name: 'Kufel',
+      name: 'Kufel szklany',
       title: 'nadruk czarny',
       quote:
-        'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
+        'Kufel szklany z nadrukiem czarnym.',
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ const people = [
       name: 'Wizytówka metalowa',
       title: 'nadruk klorowy',
       quote:
-        'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+       ' Wizytówka metalowa z nadrukiem full kolor z obu stron .',
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ const people = [
       name: 'krysztal',
       title: 'nadruk kolorowy',
       quote:
-        'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+        'Kryształ z nadrukiem full kolor. ',
     },
   ];
   
